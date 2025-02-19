@@ -22,7 +22,7 @@ Below is a list of the SQL scripts included in this repository:
 - **feature_rightsizing.sql** - Evaluates feature size relative to historical completion patterns, ensuring features are right-sized for predictability.
 - **flow_debt_by_week.sql** - Tracks flow debt over time by comparing actual cycle time to predicted cycle time, identifying process inefficiencies.
 - **flow_distribution_by_type.sql** - Categorizes work items by type (e.g., stories, bugs, support) to visualize the composition of work flowing through the system.
-- **folling_sle.sql** - Monitors changes in service level expectations (SLE) over time to assess whether teams are maintaining predictable delivery performance.
+- **rolling_sle.sql** - Monitors changes in service level expectations (SLE) over time to assess whether teams are maintaining predictable delivery performance.
 - **net_flow_data.sql** - Computes net flow (difference between work started and work completed) to determine whether teams are operating in a sustainable manner.
 - **raw_format.sql** - Stores unprocessed work item data before transformation into structured analytics reports.
 - **story_rightsizing.sql** - Analyzes story size trends to ensure work items are appropriately sized for flow efficiency.
